@@ -1,16 +1,56 @@
-## Hi there 👋
+🌊 Frutiger Chat 1.6: ВЫХОД В ИНТЕРЕНЕТ И ЛОГОТИП
+<img width="1024" height="1024" alt="logo" src="https://github.com/user-attachments/assets/0c16ffb8-41df-40c4-bb08-8ab54035763d" />
 
-<!--
-**Frutiger-Chat-v1-0/Frutiger-Chat-v1-0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+© 2026 AeroStream Technologies
 
-Here are some ideas to get you started:
+Современный мессенджер в стиле Aero / Glassmorphism
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+📝 Описание Frutiger Chat — это легкое и стильное веб-приложение для общения внутри локальных сетей. Проект сочетает в себе эстетику дизайна конца 2000-х (Frutiger Aero) и современные технологии безопасности данных.
+
+
+🚀 Основные возможности Многофункциональность: Общий чат, создание закрытых групп и система личных сообщений (ЛС).
+
+Безопасность: Пароли не хранятся в открытом виде — используется необратимое хеширование по алгоритму SHA-256.
+
+Администрирование: Отдельная панель управления (на базе Tkinter) для модерации: бан пользователей, очистка истории и системные уведомления.
+
+Кастомизация: 4 темы оформления («Океан», «Закат», «Пастель», «Классик») с эффектом матового стекла (Glassmorphism).
+
+Интерактив: Отображение онлайн-статуса пользователей и встроенное аудио-сопровождение.
+
+
+🛠 Стек технологий Язык: Python 3.x 
+
+Интерфейс: PyWebIO (Web UI), 
+
+Tkinter (Admin Panel) 
+
+База данных: SQLite3
+
+Стиль: CSS3 (Custom Glassmorphism)
+
+Безопасность: hashlib (SHA-256)
+
+
+💻 Как запустить Если чат для лок.сети то : Склонируйте репозиторий.
+
+Установите зависимости: pip install pywebio.
+
+Убедитесь, что в папке есть файл music.mp3.
+
+Запустите файл: python Chat.py.
+
+Откройте браузер: http://localhost:8080.
+
+
+Иначе если в WWW то:
+
+Откройте браузер:https://frutiger-chat-v1-5-all-internet.onrender.com
+
+
+🔮 Планы по развитию
+
+Разработка нативного мобильного приложения (APK) на базе Flet.
+
+© 2026 AeroStream Technologies
